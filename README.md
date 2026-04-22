@@ -75,3 +75,29 @@ Students should follow Git best practices when contributing:
 ## License
 
 Please check with the repository administrator or institution for licensing details.
+
+## Projects
+
+### 2026
+
+#### Joint Super-Resolution and Multi-Label Classification for Remote Sensing Imagery
+**Student:** Shreya Pragna  
+**Directory:** `Final-Year-Projects/2026/sr_mlc_Shreya_Pragna/`
+
+**Overview:**  
+This project presents a joint deep learning framework that integrates Satellite Image Super-Resolution (SR) and Multi-Label Classification (MLC) for remote sensing imagery. The framework enhances spatial resolution of low-quality satellite images while simultaneously performing land-cover classification, enabling accurate semantic understanding under severe resolution constraints.
+
+**Key Components:**
+- **Dataset:** FLAIR-2 with Sentinel-2 (10m resolution) paired with high-resolution aerial imagery (0.2m)
+- **SR Module:** Feature-space super-resolution using Conditional Variational Autoencoder (CVAE) with multi-objective losses (perceptual, edge-aware, SSIM)
+- **MLC Module:** ResNet50 backbone with GeM pooling, Graph Neural Networks (GNN) for spatial and label reasoning
+- **Training Strategy:** Progressive three-stage approach (SR pretraining → MLC pretraining → joint fine-tuning)
+- **Evaluation Metrics:** PSNR, SSIM for SR; Precision, Recall, F1-score, mAP for MLC
+
+**Submission Contents:**
+- `report.pdf` – Comprehensive technical report
+- `final_presentation.pdf` – Project presentation slides
+- `data-preparation.ipynb` – Data preprocessing and dataset preparation pipeline
+- `joint-sr-mlc-models-2025.ipynb` – Complete model implementation and training code
+- `figures/` – Architecture diagrams and sample results
+- `README.md` – Detailed project documentation
