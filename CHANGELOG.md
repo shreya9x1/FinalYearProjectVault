@@ -2,6 +2,10 @@
 
 All notable changes to the FinalYearProjectVault repository will be documented in this file.
 
+## [41e5556] - 2026-04-23
+### abhishek commit for SAR
+This commit adds a Jupyter notebook file containing a complete implementation of Synthetic Aperture Radar (SAR) machine learning components for MSTAR dataset classification. The notebook includes RCNNet backbone, PatchWeightMCL head, DMM module, strategic imbalance handling, and open-set recognition for few-shot learning tasks. The code runs training and evaluation pipelines achieving ~99.6% known accuracy and 51.6% overall open-set accuracy.
+
 ## [668a693] - 2026-04-22
 ### Adding SR+MLC report, ppt, and codes
 Added complete submission for the Joint Super-Resolution and Multi-Label Classification for Remote Sensing Imagery final year project by Shreya Pragna. This includes a comprehensive technical report, presentation slides, and two Jupyter notebooks containing the full data preparation pipeline and integrated model implementation. The project demonstrates a novel approach to jointly optimize satellite image enhancement and semantic land-cover classification using FLAIR-2 dataset with a three-stage progressive training strategy combining CVAE-based super-resolution, ResNet50-based multi-label classification, and Graph Neural Networks for spatial and label reasoning.
